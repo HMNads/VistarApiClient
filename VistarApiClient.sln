@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistarApiClient", "VistarApiClient.csproj", "{F64023C0-2D2F-4764-B8CA-0036DA34ABCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F64023C0-2D2F-4764-B8CA-0036DA34ABCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64023C0-2D2F-4764-B8CA-0036DA34ABCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64023C0-2D2F-4764-B8CA-0036DA34ABCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64023C0-2D2F-4764-B8CA-0036DA34ABCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {732E254D-872C-4C94-ABCA-D8E631175E21}
+	EndGlobalSection
+EndGlobal
