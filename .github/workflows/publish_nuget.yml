@@ -22,5 +22,5 @@ jobs:
     - name: Publish To Nuet
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
-        PROJECT_FILE_PATH: src/VistarApiClient/VistarApiClient.csproj
+        PROJECT_FILE_PATH: VistarApiClient.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
