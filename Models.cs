@@ -91,27 +91,27 @@ namespace VistarApiClient
 		[JsonProperty("gvt")]
 		public Gvt Gvt { get; set; }
 
-		//	[JsonProperty("video_supported")]
-		//	public bool VideoSupported { get; set; }
-		//
-		//	[JsonProperty("static_supported")]
-		//	public bool StaticSupported { get; set; }
-		//
-		//	[JsonProperty("cortex_supported")]
-		//	public bool CortexSupported { get; set; }
-		//
-		//	[JsonProperty("registration_id")]
-		//	public string RegistrationId { get; set; }
+        [JsonProperty("video_supported")]
+        public bool VideoSupported { get; set; }
 
-		//	[JsonProperty("height_px")]
-		//	public int HeightPx { get; set; }
-		//
-		//	[JsonProperty("width_px")]
-		//	public int WidthPx { get; set; }
+        [JsonProperty("static_supported")]
+        public bool StaticSupported { get; set; }
 
-		//[JsonProperty("static_duration_seconds")]
-		//public int StaticDurationSeconds { get; set; }
-	}
+        [JsonProperty("cortex_supported")]
+        public bool CortexSupported { get; set; }
+
+        [JsonProperty("registration_id")]
+        public string RegistrationId { get; set; }
+
+        [JsonProperty("height_px")]
+        public int HeightPx { get; set; }
+
+        [JsonProperty("width_px")]
+        public int WidthPx { get; set; }
+
+        [JsonProperty("static_duration_seconds")]
+        public int StaticDurationSeconds { get; set; }
+    }
 
 	public class VistarVenueUpdatePayload : VistarVenuePayload
 	{
