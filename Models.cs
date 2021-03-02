@@ -11,6 +11,7 @@ namespace VistarApiClient
 		public VistarReponseException(VistarErrorResponse error)
 		{
 			Error = error;
+			var test = "";
 		}
 	}
 
